@@ -1,0 +1,569 @@
+.backAudio-rotate{
+	-webkit-animation:slide-rock 2s ease infinite;
+	animation: slide-rock 2s ease infinite;
+	}
+/*
+*      page1添加动画类
+*
+*****/
+
+
+/* js动态添加类 */
+.page1 .page1-opacity1{
+	-webkit-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	}
+.page1 .page1-opacity2{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.8s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.8s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.8s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.8s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.8s both;
+	}
+.page1 .page1-opacity3{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.8s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.8s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.8s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.8s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.8s both;
+	}
+
+/* 静态类 */
+.page1 .page1-opacity{
+	-webkit-animation:slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	-moz-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	-ms-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	-o-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	}
+.page1 .page1-opacity-line0{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	}
+.page1 .page1-opacity-line1{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	}
+.page1 .page1-opacity-line2{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.3s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.3s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.3s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.3s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 3.3s both;
+	}
+.page1 .page1-opacity-line3{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 4.3s both;;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 4.3s both;;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 4.3s both;;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 4.3s both;;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 4.3s both;;
+	}
+.page1 .page1-bottom{
+	-webkit-animation:slide-from-bottom .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-moz-animation: slide-from-bottom .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-ms-animation: slide-from-bottom .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-o-animation: slide-from-bottom .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	animation: slide-from-bottom .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	}
+.page1 .page1-slide-from-right1{
+	-webkit-animation:slide-from-right 1s cubic-bezier(0.4,0.87,0.58,1) 5s both;
+	-moz-animation: slide-from-right 1s cubic-bezier(0.4,0.87,0.58,1) 5s both;
+	-ms-animation: slide-from-right 1s cubic-bezier(0.4,0.87,0.58,1) 5s both;
+	-o-animation: slide-from-right 1s cubic-bezier(0.4,0.87,0.58,1) 5s both;
+	animation: slide-from-right 1s cubic-bezier(0.4,0.87,0.58,1) 5s both;
+	}
+.page1 .page1-slide-from-right2{
+	-webkit-animation:slide-from-right .8s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	-moz-animation: slide-from-right .8s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	-ms-animation: slide-from-right .8s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	-o-animation: slide-from-right .8s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	animation: slide-from-right .8s cubic-bezier(0.4,0.87,0.58,1) 1.3s both;
+	}
+.page1 .page1-slide-from-right3{
+	-webkit-animation:slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	-moz-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	-ms-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	-o-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	}
+.page1 .page1-slide-from-left{
+	-webkit-animation:slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .2s both;
+	-moz-animation: slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .2s both;
+	-ms-animation: slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .2s both;
+	-o-animation: slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .2s both;
+	animation: slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .2s both;
+	}
+
+
+/*
+*      page2添加动画类
+*
+*****/
+
+
+/* js动态添加类 */
+.page2 .page2-opacity3{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	}
+.page2 .page2-opacity2{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	}
+.page2 .page2-opacity1{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.2s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.2s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.2s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.2s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.2s both;
+	}
+.page2 .page2-opacity4{
+	-webkit-animation:slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.7s both;
+	-moz-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.7s both;
+	-ms-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.7s both;
+	-o-animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.7s both;
+	animation: slide-from-opacity .5s cubic-bezier(0.4,0.87,0.58,1) 2.7s both;
+	}
+
+/* 静态类 */
+.page2 .page2-slide-from-right1{
+	-webkit-animation:slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-moz-animation: slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-ms-animation: slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	-o-animation: slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	animation: slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 2.3s both;
+	}
+.page2 .page2-slide-from-right2{
+	-webkit-animation:slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-moz-animation: slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-ms-animation: slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-o-animation: slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	animation: slide-from-right 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	}
+.page2 .page2-slide-from-right{
+	-webkit-animation:slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-moz-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-ms-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-o-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	}
+.page2 .page2-slide-from-left{
+	-webkit-animation:slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	-moz-animation: slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	-ms-animation: slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	-o-animation: slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	animation: slide-from-left .5s cubic-bezier(0.4,0.87,0.58,1) .5s both;
+	}
+
+.page2 .page2-opacity{
+	-webkit-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-moz-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-ms-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-o-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	}
+
+.page2 .page2-opacity5{
+	-webkit-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	-moz-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	-ms-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	-o-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	}
+	
+/*
+*      page3添加动画类
+*
+*****/
+
+
+.page3 .page3-opacity1{
+	-webkit-animation:slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-moz-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-ms-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	-o-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 1.8s both;
+	}
+.page3 .page3-opacity2{
+	-webkit-animation:slide-from-opacity 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-moz-animation: slide-from-opacity 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-ms-animation: slide-from-opacity 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-o-animation: slide-from-opacity 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	animation: slide-from-opacity 1.2s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	}
+.page3 .page3-opacity{
+	-webkit-animation:slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-moz-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-ms-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-o-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	}
+.page3 .page3-opacity3{
+	-webkit-animation:slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	-moz-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	-ms-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	-o-animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	animation: slide-from-opacity .8s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	}
+.page3 .page3-bottom1{
+	-webkit-animation:slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	-moz-animation: slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	-ms-animation: slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	-o-animation: slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	animation: slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .3s both;
+	}
+.page3 .page3-bottom2{
+	-webkit-animation:slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-moz-animation: slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-ms-animation: slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	-o-animation: slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	animation: slide-from-bottom .5s cubic-bezier(0.4,0.87,0.58,1) .8s both;
+	}
+.page3 .page3-slide-from-right1{
+	-webkit-animation:slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-moz-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-ms-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-o-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	}
+.page3 .page3-slide-from-right2{
+	-webkit-animation:slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2s both;
+	-moz-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2s both;
+	-ms-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2s both;
+	-o-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2s both;
+	animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2s both;
+	}
+.page3 .page3-slide-from-right3{
+	-webkit-animation:slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	-moz-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	-ms-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	-o-animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	animation: slide-from-right .5s cubic-bezier(0.4,0.87,0.58,1) 2.5s both;
+	}
+
+	
+/*
+*      page4添加动画类、page5添加动画类、page6添加动画类
+*
+*****/
+
+
+
+.page4 .page4-cutinsan,.page5 .page5-cutinsan,.page6 .page6-cutinsan,.page7-cutinsan{
+	-webkit-animation:leftcutin 0.5s ease .1s both;
+	-moz-animation: leftcutin 0.5s ease .1s both;
+	-ms-animation: leftcutin 0.5s ease .1s both;
+	-o-animation: leftcutin 0.5s ease .1s both;
+	animation: leftcutin 0.5s ease .1s both;
+	}
+
+.page4 .page4-opacity1,.page5 .page5-opacity1,.page6 .page6-opacity1,.page7 .page7-opacity1{
+	-webkit-animation:slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	-moz-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	-ms-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	-o-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1s both;
+	}
+.page4 .page4-opacity2,.page5 .page5-opacity2,.page6 .page6-opacity2,.page7 .page7-opacity2{
+	-webkit-animation:slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.2s both;
+	-moz-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.2s both;
+	-ms-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.2s both;
+	-o-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.2s both;
+	animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.2s both;
+	}
+.page4 .page4-opacity3,.page5 .page5-opacity3,.page6 .page6-opacity3,.page7 .page7-opacity3{
+	-webkit-animation:slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-moz-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-ms-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	-o-animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	animation: slide-from-opacity 1s cubic-bezier(0.4,0.87,0.58,1) 1.5s both;
+	}
+
+
+
+
+
+.page1-next .page1-leave,.page2-next .page2-leave,.page3-next .page3-leave,.page4-next .page4-leave,.page5-next .page5-leave,.page6-next .page6-leave,.page7-next .page7-leave{
+	-webkit-animation: page-leave-nex .7s ease-out forwards;
+	-moz-animation: page-leave-nex .7s ease-out forwards;
+	-ms-animation: page-leave-nex .7s ease-out forwards;
+	-o-animation: page-leave-nex .7s ease-out forwards;
+	animation: page-leave-nex .7s ease-out forwards;
+	}
+.page1-prev .page1-leave,.page2-prev .page2-leave,.page3-prev .page3-leave,.page4-prev .page4-leave,.page5-prev .page5-leave,.page6-prev .page6-leave,.page7-prev .page7-leave{
+	-webkit-animation: page-leave-pre .7s ease-out forwards;
+	-moz-animation: page-leave-pre .7s ease-out forwards;
+	-ms-animation: page-leave-pre .7s ease-out forwards;
+	-o-animation: page-leave-pre .7s ease-out forwards;
+	animation: page-leave-pre .7s ease-out forwards;
+	}
+@-webkit-keyframes slide-from-bottom {	/*从下方移入*/
+	0%{
+			opacity:0;
+			-webkit-transform:translate(0px,120px);
+			}
+}
+@-o-keyframes slide-from-bottom {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(0px,120px);
+			}
+}
+@-moz-keyframes slide-from-bottom {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(0px,120px);
+			}
+}
+@keyframes slide-from-bottom {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(0px,120px);
+			}
+}
+
+
+
+
+
+@-webkit-keyframes slide-from-right {/*从右方移入*/
+	0%{
+			opacity:0;
+			-webkit-transform:translate(120px,0px);
+			}
+}
+@-o-keyframes slide-from-right {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(120px,0px);
+			}
+}
+@-moz-keyframes slide-from-right {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(120px,0px);
+			}
+}
+@keyframes slide-from-right {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(120px,0px);
+			}
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes slide-from-left {/*从左方移入*/
+	0%{
+			opacity:0;
+			-webkit-transform:translate(-200px,0px);
+			}
+}
+@-o-keyframes slide-from-left {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(-200px,0px);
+			}
+}
+@-moz-keyframes slide-from-left {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(-200px,0px);
+			}
+}
+@keyframes slide-from-left {
+	0%{
+			opacity:0;
+			-webkit-transform:translate(-200px,0px);
+			}
+}
+
+
+
+
+
+
+
+@-webkit-keyframes slide-from-scale {/* 呼吸*/
+	0%{
+			-webkit-transform:scale(0.5);
+			}
+		100%{
+			-webkit-transform:scale(1.2);
+			}
+}
+@-o-keyframes slide-from-scale {
+	0%{
+			-webkit-transform:scale(0.5);
+			}
+		100%{
+			-webkit-transform:scale(1.2);
+			}
+}
+@-moz-keyframes slide-from-scale {
+	0%{
+			-webkit-transform:scale(0.5);
+			}
+		100%{
+			-webkit-transform:scale(1.2);
+			}
+}
+@keyframes slide-from-scale {
+	0%{
+			-webkit-transform:scale(0.5);
+			}
+		100%{
+			-webkit-transform:scale(1.2);
+			}
+}
+
+
+
+
+
+@-webkit-keyframes slide-from-opacity {/*淡入*/
+	0%{
+			opacity:0;
+			}
+}
+@-o-keyframes slide-from-opacity {
+	0%{
+			opacity:0;
+			}
+}
+@-moz-keyframes slide-from-opacity {
+	0%{
+			opacity:0;
+			}
+}
+@keyframes slide-from-opacity {
+	0%{
+			opacity:0;
+			}
+}
+
+
+
+
+
+@-webkit-keyframes slide-rock {  /*摇摆*/
+	0%{
+			-webkit-transform: rotate(0deg);
+			}
+		100%{
+			-webkit-transform: rotate(360deg);
+			}
+}
+@keyframes slide-rock {
+	0%{
+			-webkit-transform: rotate(0deg);
+			}
+		100%{
+			-webkit-transform: rotate(360deg);
+			}
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes page-leave-nex {/*点下一页后，当前页向前移出*/
+	to{
+			opacity:0;
+			-webkit-transform:translate(0,-300px);
+		}
+}
+@-o-keyframes page-leave-nex {
+	to{
+			opacity:0;
+			-webkit-transform:translate(0,-300px);
+		}
+}
+@-moz-keyframes page-leave-nex {
+	to{
+			opacity:0;
+			-webkit-transform:translate(0,-300px);
+		}
+}
+@keyframes page-leave-nex {
+	to{
+			opacity:0;
+			-webkit-transform:translate(0,-300px);
+		}
+}
+
+
+
+
+
+
+@-webkit-keyframes page-leave-pre {/*点上一页后，当前页向后移出*/
+		to{
+			opacity:0;
+			-webkit-transform:translate(0,300px);
+		}
+	}
+@-o-keyframes page-leave-pre {
+		to{
+			opacity:0;
+			-webkit-transform:translate(0,300px);
+		}
+	}
+@-moz-keyframes page-leave-pre {
+		to{
+			opacity:0;
+			-webkit-transform:translate(0,300px);
+		}
+	}
+@keyframes page-leave-pre {
+		to{
+			opacity:0;
+			-webkit-transform:translate(0,300px);
+		}
+	}	
+
+
+
+@-webkit-keyframes leftcutin {
+	0%{
+			-webkit-transform:translate(-1500px,-200px);
+			}
+		}
+@-o-keyframes leftcutin {
+	0%{
+			-webkit-transform:translate(-1500px,-200px);
+			}
+}
+@-moz-keyframes leftcutin {
+	0%{
+			-webkit-transform:translate(-1500px,-200px);
+			}
+}
+@keyframes leftcutin {
+	0%{
+			-webkit-transform:translate(-1500px,-200px);
+			}
+}
