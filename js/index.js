@@ -1,9 +1,7 @@
 'use strict';
 
 　// true or false
-
-window.onload=initLoad;//所有元素都加载完成触发
-function initLoad(){
+$(function (){
 	$('body').show();
 	var pageIndex=0,
 		pageLen=7,
@@ -95,10 +93,10 @@ function initLoad(){
 			}
 			if(from==5){
 				 if (!myVideo.paused) {  
-		       		 myVideo.get(0).pause(); // 暂停  
+		       		 myVideo.pause(); // 暂停  
 		       		 $(".page6-video").hide();
-		       		 page6_play.show();
-					page6_videoImg.show();
+		       		 $(".page6-play")[0].style.display='block';
+					$(".page6-videoImg")[0].style.display='block';
 		       		 console.log("pause")
 		          }  
 		      }
@@ -145,5 +143,5 @@ function initLoad(){
 		changePage(pageIndex,pageIndex+add,add);
 	}
 
-}
+})
 
